@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/abb579fef1.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id = "maincontent">
+        <div id="headings">
+            <h1 id="appname">Invoice creator</h1>
+            <p id="thank">Thanks for choosing Carlo's Services!</p>
+        </div>
+        <div id="maincode">
+            <div id="threebuttons">
+                <button id="wash" onclick="addtasktolist(this);">Wash Car: $10</button>
+                <button id="mow" onclick="addtasktolist(this);">Mow Lawn: $20</button>
+                <button id="pull" onclick="addtasktolist(this);">Pull weeds: $30</button>
+            </div>
+
+            <div id="services_lists">
+                <ul id="servicesnames">
+                    TASK
+                    <div id="smol">
+                        
+                    </div>
+                    <!-- <li class="service_name">test</li>
+                    <li class="service_name">test</li> -->
+                </ul>
+                <ul id="servicesprices">TOTAL
+                    <div id="smolprice"></div>
+                    <!-- <li class="service_price">test</li>
+                        
+                    <li class="service_price">test</li> -->
+                    <!-- <p class="remove"></p> -->
+                </ul>
+            </div>
+            <hr>
+
+            <div id="costlabelslabel">
+                <div id="mynotes">
+                    <p id="noteheader">NOTES</p>
+                    <!-- <br> -->
+                    <p id="notecontent">We accept cash, credit card, or PayPal</p>
+                </div>
+
+                <div id="costlabels">
+                    <p id="totalamount">TOTAL AMOUNT</p>
+                    <p id="finalprice">$0</p>
+                </div>
+            </div>
+            <button id="send"><i class="fa-solid fa-envelope"></i>  Send invoice</button>
+
+
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
