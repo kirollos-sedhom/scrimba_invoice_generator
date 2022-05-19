@@ -48,7 +48,7 @@ html,body{
     flex-direction: row;
     margin: auto;
     /* padding: 0%; */
-    width:25%;
+    width:80%;
     justify-content: space-between;
     align-content:flex-end;
     /* border: 5px solid #FF0000; */
@@ -56,7 +56,7 @@ html,body{
 }
 #threebuttons{
     padding: 30px;
-    width: 25%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -90,7 +90,7 @@ ul{
     font-size: 24px;
 }
 hr{
-    width: 25%;
+    width: 80%;
 }
 #mynotes{
     display: flex;
@@ -111,7 +111,7 @@ hr{
 #costlabelslabel{
     /* border: 5px solid red; */
     padding: 10px;
-    width: 25%;
+    width: 80%;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
@@ -144,7 +144,7 @@ hr{
     color: white;
     font-family: 'Inter';
     font-weight: 500;
-    width: 25%;
+    width: 80%;
     border: none;
     border-radius: 7px;
     padding: 9px 17px 9px 15px;
